@@ -2,6 +2,7 @@ package view;
 
 import java.sql.SQLException;
 
+import model.CitaModel;
 import model.EnfermeroModel;
 import model.MedicoModel;
 
@@ -14,18 +15,24 @@ public class Main {
 	 */
 	public static void main(String[] args) throws SQLException {
 
-		try {
+		/*
+		try {			
+			//MedicoModel medico = new MedicoModel();
+			//medico.showResult();
+			//medico.exportCSV("/Users/victorsarabia/Desktop/medicos.csv");
 			
-			MedicoModel medico = new MedicoModel();
-			medico.showResult();
+			//EnfermeroModel enfermero = new EnfermeroModel();
+			//enfermero.showResult();
+			//enfermero.exportCSV("/Users/victorsarabia/Desktop/enfermeros.csv");
 			
-			EnfermeroModel enfermero = new EnfermeroModel();
-			enfermero.showResult();
-			
+			//CitaModel cita = new CitaModel();
+			//cita.exportCSV("/Users/victorsarabia/Desktop/citas.csv");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		*/
+		
 		
 	}
 
